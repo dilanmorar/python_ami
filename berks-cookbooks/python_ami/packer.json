@@ -1,10 +1,15 @@
 {
+
+  "variables": {
+    "aws_access_key": "{{env `AWS_ACCESS_KEY_ID`}}",
+    "aws_secret_key": "{{env `AWS_SECRET_KEY_ID`}}"
+
   "builders": [{
     "ami_name": "python-{{timestamp}}",
 
     "type": "amazon-ebs",
-    "access_key": "AKIAJU3QNRJKGFO4U3JA",
-    "secret_key": "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",
+    "access_key": "{{user `aws_access_key`}}",
+    "secret_key": "{{user `aws_secret_key`}}",
     "associate_public_ip_address": "true",
 
     "ssh_keypair_name": "dilan-aws",
