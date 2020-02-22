@@ -57,7 +57,7 @@ Select GitHub project and put the link of the github project https://github.com/
 
 Put the ssh of the github project
 
-Create a key Using `ssh-keygen -t rsa` on your computer, and in your github project under deploy keys add your public key that you generated. In jenkins add the key. Change the kind to 'SSH Username with private key', add username and manually add the private key generated.
+Create a key Using `ssh-keygen -t rsa` on your computer, and in your github project under deploy keys add your public key that you generated. In jenkins go to add key and from there change the kind to 'SSH Username with private key', add username and manually add the private key generated.
 
 #### Build triggers
 
