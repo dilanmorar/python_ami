@@ -72,6 +72,6 @@ Choose execute shell and type the following code:
 python3 -m pytest tests/
 ```
 
-#### Run the build
+### Run the build
 
 To start the build simply select  Build Now. If the output is blue it is successful. If it is red means it was unsuccessful and you should select the console output to find out the error.
