@@ -2,7 +2,7 @@
 
 TODO: Enter the cookbook description here.
 
-This cookbook was created in the aim to have all the dependencies required to run the python app. It also has jenkins configured.
+This cookbook was created in the aim to have all the dependencies required to run the python app (https://github.com/dilanmorar/IT_Jobs_Watch_Data). It also has jenkins configured.
 
 ## Chef
 Chef was used to create a cookbook using `chef generate cookbook python_ami` and it contains the dependencies in the recipe needed to run the IT_Jobs_Watch_Data. It also contains a Berksfile which has the chef supermarket and the metadata and is used to manage the dependencies of the cookbook and a berks-cookbooks `berks vendor`.
